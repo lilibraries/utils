@@ -35,7 +35,11 @@
     "url": "git+https://github.com/lilibraries/utils.git"
   },
   "keywords": [
-    "utils"
+    "utils",
+    "warning",
+    "EventEmitter",
+    "Cache",
+    "MemoryCache"
   ],
   "author": "李蔚生",
   "license": "MIT",
