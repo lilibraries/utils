@@ -21,20 +21,14 @@ module.exports = function (api, options = {}) {
               ignoreBrowserslistConfig: true,
             },
       ],
-      [
-        "@babel/preset-typescript",
-        {
-          isTSX: true,
-          allExtensions: true,
-        },
-      ],
+      ["@babel/preset-typescript"],
     ],
     plugins: [
       [
         "@babel/plugin-transform-runtime",
         {
           corejs: 3,
-          version: require("@babel/runtime-corejs3/package.json").version,
+          version: "7.18.3",
         },
       ],
     ],
