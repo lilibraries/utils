@@ -3,7 +3,7 @@ title: Getting Started
 slug: /
 ---
 
-[`@lilib/utils`](https://www.npmjs.com/package/@lilib/utils) is a common util library.
+[`@lilib/utils`](https://www.npmjs.com/package/@lilib/utils) has some common utils.
 
 ## Install
 

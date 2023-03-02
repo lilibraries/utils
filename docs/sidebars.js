@@ -10,6 +10,7 @@ module.exports = {
     "inBrowser",
     "isEventTarget",
     "isPageVisible",
+    "isPositiveNumber",
     "MemoryCache",
     "mergeWithDefined",
     "warning",

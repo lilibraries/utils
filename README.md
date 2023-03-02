@@ -1,6 +1,6 @@
 # Utils
 
-Common util library.
+Common utils.
 
 ## Install
 
