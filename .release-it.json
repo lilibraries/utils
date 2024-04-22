@@ -1,0 +1,16 @@
+{
+  "git": {
+    "commitMessage": "chore(release): ${version}"
+  },
+  "hooks": {
+    "before:init": ["npm run lint", "npm run test", "npm run dist"],
+    "after:release": "echo Successfully released ${name}@${version}."
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "conventionalcommits",
+      "infile": "CHANGELOG.md",
+      "header": "# Changelog"
+    }
+  }
+}
