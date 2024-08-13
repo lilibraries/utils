@@ -1,6 +1,6 @@
 # Utils
 
-Common utils.
+This library provides some commonly used utilities.
 
 ## Install
 
