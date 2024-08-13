@@ -9,6 +9,7 @@ module.exports = {
     "getUrlExtname",
     "inBrowser",
     "isEventTarget",
+    "isObject",
     "isPageVisible",
     "isPositiveNumber",
     "MemoryCache",

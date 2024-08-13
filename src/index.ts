@@ -8,6 +8,7 @@ export { default as getEffectTarget } from "./getEffectTarget";
 export { default as getUrlExtname } from "./getUrlExtname";
 export { default as inBrowser } from "./inBrowser";
 export { default as isEventTarget } from "./isEventTarget";
+export { default as isObject } from "./isObject";
 export { default as isPageVisible } from "./isPageVisible";
 export { default as isPositiveNumber } from "./isPositiveNumber";
 export { default as MemoryCache } from "./MemoryCache";
