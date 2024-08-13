@@ -10,6 +10,7 @@ module.exports = {
     "inBrowser",
     "isEventTarget",
     "isFunction",
+    "isNumber",
     "isObject",
     "isPageVisible",
     "isPositiveNumber",

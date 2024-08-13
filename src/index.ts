@@ -9,6 +9,7 @@ export { default as getUrlExtname } from "./getUrlExtname";
 export { default as inBrowser } from "./inBrowser";
 export { default as isEventTarget } from "./isEventTarget";
 export { default as isFunction } from "./isFunction";
+export { default as isNumber } from "./isNumber";
 export { default as isObject } from "./isObject";
 export { default as isPageVisible } from "./isPageVisible";
 export { default as isPositiveNumber } from "./isPositiveNumber";
