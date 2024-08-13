@@ -13,6 +13,7 @@ export { default as isObject } from "./isObject";
 export { default as isPageVisible } from "./isPageVisible";
 export { default as isPositiveNumber } from "./isPositiveNumber";
 export { default as isString } from "./isString";
+export { default as isSymbol } from "./isSymbol";
 export { default as MemoryCache } from "./MemoryCache";
 export { default as mergeWithDefined } from "./mergeWithDefined";
 export { default as warning } from "./warning";

@@ -14,6 +14,7 @@ module.exports = {
     "isPageVisible",
     "isPositiveNumber",
     "isString",
+    "isSymbol",
     "MemoryCache",
     "mergeWithDefined",
     "warning",
