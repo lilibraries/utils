@@ -1,4 +1,4 @@
-import { getConstructorName } from "@lilib/utils";
+import { getConstructorName, EventEmitter } from "@lilib/utils";
 
 describe("getConstructorName", () => {
   it("should get constructor name correctly", () => {
@@ -10,10 +10,12 @@ describe("getConstructorName", () => {
     const b = new B();
     // @ts-ignore
     const c = new C();
+    const ee = new EventEmitter();
 
     expect(getConstructorName(a)).toBe("A");
     expect(getConstructorName(b)).toBe("B");
     expect(getConstructorName(c)).toBe("C");
+    expect(getConstructorName(ee)).toBe("EventEmitter");
     expect(getConstructorName(A)).toBe("Function");
     expect(getConstructorName(C)).toBe("Function");
     // @ts-ignore

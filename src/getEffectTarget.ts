@@ -1,6 +1,6 @@
-import isObject from "lodash/isObject";
-import isFunction from "lodash/isFunction";
 import inBrowser from "./inBrowser";
+import isObject from "./isObject";
+import isFunction from "./isFunction";
 import { Nullable, EffectTarget } from "./types";
 
 function getEffectTarget<T>(target: EffectTarget<T>): Nullable<T> {

@@ -3,7 +3,7 @@ Detect whether a number is positive.
 ## API
 
 ```ts
-function isPositiveNumber(value: unknown): boolean;
+function isPositiveNumber(value: any): value is number;
 ```
 
 ## Example

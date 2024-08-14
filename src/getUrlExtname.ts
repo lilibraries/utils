@@ -1,17 +1,12 @@
 function getUrlExtname(url: string): string {
-  url = String(url);
+  try {
+    const pathname = new URL(url).pathname;
 
-  if (url) {
-    const blocks = url.split(/[#?]/);
-
-    if (blocks.length) {
-      const pathname = blocks[0];
-      const chunks = pathname.split(".");
-
-      if (chunks.length > 1) {
-        return chunks[chunks.length - 1].trim().toLowerCase();
-      }
+    if (pathname.includes(".")) {
+      return (pathname.split(".").pop() as string).toLowerCase();
     }
+  } catch (e) {
+    console.error(e);
   }
 
   return "";

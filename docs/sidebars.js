@@ -5,6 +5,7 @@ module.exports = {
     "composeRefs",
     "EventEmitter",
     "getConstructorName",
+    "getDisplayName",
     "getEffectTarget",
     "getUrlExtname",
     "inBrowser",

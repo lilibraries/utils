@@ -1,4 +1,4 @@
-Get extname of a URL. The returned string is always lowercase. If the URL don't have extname, this function will return an empty string.
+Get extname of a url. The returned string is always lowercase. If the URL don't have extname, this function will return an empty string.
 
 ## API
 
@@ -10,6 +10,9 @@ function getUrlExtname(url: string): string;
 
 ```ts
 import { getUrlExtname } from "@lilib/utils";
+
+getUrlExtname("http://example.com/pathname");
+// => ""
 
 getUrlExtname("http://example.com/pathname.ExtName?search.search#hash.hash");
 // => "extname"

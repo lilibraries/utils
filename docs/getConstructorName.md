@@ -3,7 +3,7 @@ Get constructor name of an instance.
 ## API
 
 ```ts
-function getConstructorName(instance: object): string;
+function getConstructorName(instance: any): string;
 ```
 
 ## Example

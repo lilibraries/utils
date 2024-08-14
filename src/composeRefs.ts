@@ -1,7 +1,7 @@
-import isObject from "lodash/isObject";
-import isFunction from "lodash/isFunction";
+import isObject from "./isObject";
+import isFunction from "./isFunction";
 
-// The following types are copied from @types/react.
+// The following types are copied from @types/react which licensed under the MIT license.
 interface RefObject<T> {
   readonly current: T | null;
 }

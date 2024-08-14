@@ -1,6 +1,6 @@
-import isString from "lodash/isString";
+import isString from "./isString";
 
-function getConstructorName(instance: object): string {
+function getConstructorName(instance: any): string {
   let name = instance && instance.constructor && instance.constructor.name;
   if (isString(name) && name !== "") {
     return name;

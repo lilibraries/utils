@@ -43,8 +43,7 @@
   },
   "homepage": "https://lilibraries.github.io/utils/",
   "dependencies": {
-    "@babel/runtime-corejs3": "^7.18.3",
-    "lodash": "^4.17.21"
+    "@babel/runtime-corejs3": "^7.18.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
@@ -59,7 +58,6 @@
     "@mdx-js/react": "^1.0.0",
     "@release-it/conventional-changelog": "^7.0.2",
     "@types/jest": "^28.1.1",
-    "@types/lodash": "^4.14.190",
     "@types/node": "^18.14.2",
     "concurrently": "^7.2.1",
     "cross-env": "^7.0.3",

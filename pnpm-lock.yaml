@@ -8,9 +8,6 @@ dependencies:
   '@babel/runtime-corejs3':
     specifier: ^7.18.3
     version: 7.21.0
-  lodash:
-    specifier: ^4.17.21
-    version: 4.17.21
 
 devDependencies:
   '@babel/cli':
@@ -49,9 +46,6 @@ devDependencies:
   '@types/jest':
     specifier: ^28.1.1
     version: 28.1.8
-  '@types/lodash':
-    specifier: ^4.14.190
-    version: 4.14.191
   '@types/node':
     specifier: ^18.14.2
     version: 18.14.2
@@ -3697,10 +3691,6 @@ packages:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
       '@types/node': 18.14.2
-    dev: true
-
-  /@types/lodash@4.14.191:
-    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
     dev: true
 
   /@types/mdast@3.0.10:
@@ -10136,6 +10126,7 @@ packages:
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
 
   /log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}

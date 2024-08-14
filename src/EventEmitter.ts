@@ -1,7 +1,7 @@
-import isString from "lodash/isString";
-import isSymbol from "lodash/isSymbol";
-import isFunction from "lodash/isFunction";
 import warning from "./warning";
+import isString from "./isString";
+import isSymbol from "./isSymbol";
+import isFunction from "./isFunction";
 import getDisplayName from "./getDisplayName";
 import getConstructorName from "./getConstructorName";
 
