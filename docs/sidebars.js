@@ -15,6 +15,7 @@ module.exports = {
     "isPageVisible",
     "isPositiveNumber",
     "isPromise",
+    "isRenderable",
     "MemoryCache",
     "mergeWithDefined",
     "warning",

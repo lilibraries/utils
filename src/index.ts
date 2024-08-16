@@ -13,6 +13,7 @@ export { default as isEventTarget } from "./isEventTarget";
 export { default as isPageVisible } from "./isPageVisible";
 export { default as isPositiveNumber } from "./isPositiveNumber";
 export { default as isPromise } from "./isPromise";
+export { default as isRenderable } from "./isRenderable";
 export { default as MemoryCache } from "./MemoryCache";
 export { default as mergeWithDefined } from "./mergeWithDefined";
 export { default as warning } from "./warning";
