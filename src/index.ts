@@ -7,6 +7,7 @@ export { default as getDisplayName } from "./getDisplayName";
 export { default as getEffectTarget } from "./getEffectTarget";
 export { default as getUrlExtname } from "./getUrlExtname";
 export { default as inBrowser } from "./inBrowser";
+export { default as isCSSValue } from "./isCSSValue";
 export { default as isEmptyArray } from "./isEmptyArray";
 export { default as isEventTarget } from "./isEventTarget";
 export { default as isPageVisible } from "./isPageVisible";
