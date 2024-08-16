@@ -13,6 +13,7 @@ module.exports = {
     "isEventTarget",
     "isPageVisible",
     "isPositiveNumber",
+    "isPromise",
     "MemoryCache",
     "mergeWithDefined",
     "warning",

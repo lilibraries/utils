@@ -1,6 +1,6 @@
 import { isEmptyArray } from "@lilib/utils";
 
-describe("isPositiveNumber", () => {
+describe("isEmptyArray", () => {
   it("should validate correctly", () => {
     expect(isEmptyArray([])).toBe(true);
     expect(isEmptyArray({})).toBe(false);
