@@ -9,6 +9,7 @@ module.exports = {
     "getEffectTarget",
     "getUrlExtname",
     "inBrowser",
+    "isEmptyArray",
     "isEventTarget",
     "isPageVisible",
     "isPositiveNumber",
