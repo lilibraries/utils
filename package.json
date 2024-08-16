@@ -1,7 +1,7 @@
 {
   "name": "@lilib/utils",
   "version": "1.1.0",
-  "description": "Common utils.",
+  "description": "Commonly used utilities.",
   "files": [
     "src",
     "dist"
@@ -43,7 +43,9 @@
   },
   "homepage": "https://lilibraries.github.io/utils/",
   "dependencies": {
-    "@babel/runtime-corejs3": "^7.18.3"
+    "@babel/runtime-corejs3": "^7.18.3",
+    "@types/lodash": "^4.17.7",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",

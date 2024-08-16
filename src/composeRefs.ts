@@ -1,5 +1,5 @@
-import isObject from "./isObject";
-import isFunction from "./isFunction";
+import isObject from "lodash/isObject";
+import isFunction from "lodash/isFunction";
 
 // The following types are copied from @types/react which licensed under the MIT license.
 interface RefObject<T> {

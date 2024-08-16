@@ -1,4 +1,4 @@
-import isObject from "./isObject";
+import isObject from "lodash/isObject";
 import mergeWithDefined from "./mergeWithDefined";
 
 interface WarningOptions {

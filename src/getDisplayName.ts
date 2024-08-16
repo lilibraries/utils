@@ -1,5 +1,5 @@
-import isObject from "./isObject";
-import isFunction from "./isFunction";
+import isObject from "lodash/isObject";
+import isFunction from "lodash/isFunction";
 
 function getDisplayName(value: any): string {
   let displayName: string = "";
